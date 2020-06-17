@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson 20 | JS Core</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Введіть ім'я</label>
+        <input type="text" name="name" id="name">
+        <label for="age">Введіть вік</label>
+        <input type="text" name="age" id="age">
+        <input type="button" value="Відправити в Local">
+        <input type="button" value="Видалити з Local">
+        <hr>
+        <span>Застосувати encode?</span>
+        <input type="radio" name="radiog_lite" id="encode" class="checkbox" />
+        <label for="encode" class="label radGroup1">Так</label>
+        <input type="radio" name="radiog_lite" id="notencode" class="checkbox" checked="checked" />
+        <label for="notencode" class="label radGroup1">Ні</label>
+        <input type="button" value="Відправити в Cookie">
+        <hr>
+        <p>Перезагрузіть сторінку щоб завантажити дані.</p>
+    </form>
+    <div id="local"></div>
+    <div id="cookie"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
